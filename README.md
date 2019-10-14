@@ -18,5 +18,9 @@ For deep learning, I have done following experiments with tensorflow:
     => RNN
     => LSTM
 
+Besides, I have done following small sample projects:  
+    => Cifar10 with CNN
+    => Poetry auto generation with LSTM
+
 
 
