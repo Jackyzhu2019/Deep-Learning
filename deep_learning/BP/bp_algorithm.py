@@ -45,7 +45,7 @@ class Bp_network():
             activation = self.output_layer[n_output_point]['weight'][-1]
 
             for i in range(self.hidden_num):
-               # print(self.hidden_layer[i]['output'])
+               # print(self.hidden_layer[i]['output']) # test
                 activation += self.hidden_layer[i]['output'] * self.output_layer[n_output_point]['weight'][i]
 
             #print(activation)
